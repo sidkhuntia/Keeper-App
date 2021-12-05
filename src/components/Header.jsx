@@ -1,10 +1,11 @@
 import React from "react";
-
+import EventNoteIcon from '@material-ui/icons/EventNote';
 function Header(){
  //retrurn header   
     return (
         <header>
-            <h1>Keeper</h1>
+            {/* <EventNoteIcon /> */}
+            <h1> <span className="logo-icon"><EventNoteIcon /></span>  Keeper</h1>
         </header>
     );
 
